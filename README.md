@@ -8,6 +8,9 @@ Seismic lets developers access new token bootstrapping models, consumer payment 
 ✅ Raised: $7M
 ✅ Backer: a16z, Polychain Capital..
 
+![image](https://github.com/user-attachments/assets/5b10ac19-a2e9-45f7-bae8-27f15f6b59fe)
+
+
 ## Use [codespace](https://github.com/codespaces)
 
 - Command: 
