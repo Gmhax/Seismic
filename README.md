@@ -15,12 +15,10 @@ Seismic lets developers access new token bootstrapping models, consumer payment 
 
 - Command: 
 ```bash
-bash <(curl -sL https://raw.githubusercontent.com/Gmhax/Seismic/refs/heads/main/deploy_contract.sh)
+bash <(curl -sL https://raw.githubusercontent.com/Gmhax/Seismic/main/deploy_contract.sh)
+
 ```
-- Execute: 
-```bash
-bash deploy_contract.sh
-```
+
 
 - Join discord: https://discord.gg/Syd7EcvS
 - Send a screenshot + feedback in #devnet channel
