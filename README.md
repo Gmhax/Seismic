@@ -15,7 +15,11 @@ Seismic lets developers access new token bootstrapping models, consumer payment 
 
 - Command: 
 ```bash
-bash <(curl -sL https://raw.githubusercontent.com/solotop999/blockchain_scripts/main/Seismic_deploy_contract.sh)
+git clone https://github.com/Gmhax/Seismic.git
+cd Seismic
+chmod +x deploy_encrypted_contract.sh
+./deploy_encrypted_contract.sh
+
 
 ```
 
