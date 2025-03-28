@@ -19,11 +19,15 @@ fi
 echo "Installing sfoundryup..."
 curl -L -H "Accept: application/vnd.github.v3.raw" \
      "https://api.github.com/repos/SeismicSystems/seismic-foundry/contents/sfoundryup/install?ref=seismic" | bash
+
+# Ensure environment variables are loaded
 source ~/.bashrc
+source ~/.profile
+source ~/.seismic/env || true  # Load seismic env if it exists
 
 # Run sfoundryup
 echo "Running sfoundryup..."
-sfoundryup
+~/.seismic/bin/sfoundryup
 
 # Clone repository
 echo "Cloning repository..."
