@@ -19,8 +19,6 @@ git clone https://github.com/Gmhax/Seismic.git
 cd Seismic
 chmod +x deploy_encrypted_contract.sh
 ./deploy_encrypted_contract.sh
-
-
 ```
 
 
