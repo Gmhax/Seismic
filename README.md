@@ -13,7 +13,7 @@ Seismic lets developers access new token bootstrapping models, consumer payment 
 
 - Use [codespace](https://github.com/codespaces) to run this devnet
 
-- Command: 
+- Command: Deploy
 ```bash
 git clone https://github.com/SeismicSystems/try-devnet.git
 cd try-devnet
@@ -27,6 +27,7 @@ sed -i 's/scast/cast/g' ../common/wallet.sh
 sed -i 's/sforge/forge/g' script/deploy.sh
 bash script/deploy.sh
 ```
+
 
 
 - Join discord: https://discord.gg/Syd7EcvS
