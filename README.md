@@ -28,6 +28,8 @@ sed -i 's/sforge/forge/g' script/deploy.sh
 bash script/deploy.sh
 ```
 
+## OUTPUT
+![image](https://github.com/user-attachments/assets/2811e537-ad96-4970-9c98-fd2560cced86)
 
 
 - Join discord: https://discord.gg/Syd7EcvS
