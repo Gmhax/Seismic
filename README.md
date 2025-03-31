@@ -15,10 +15,17 @@ Seismic lets developers access new token bootstrapping models, consumer payment 
 
 - Command: 
 ```bash
-git clone https://github.com/Gmhax/Seismic.git
-cd Seismic
-chmod +x deploy_encrypted_contract.sh
-./deploy_encrypted_contract.sh
+git clone https://github.com/SeismicSystems/try-devnet.git
+cd try-devnet
+cd packages/contract/
+curl -L https://foundry.paradigm.xyz | bash
+source ~/.bashrc
+foundryup
+which cast
+cast --version
+sed -i 's/scast/cast/g' ../common/wallet.sh
+sed -i 's/sforge/forge/g' script/deploy.sh
+bash script/deploy.sh
 ```
 
 
